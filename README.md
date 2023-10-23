@@ -1,0 +1,1 @@
+install mvn, jdk, gradle

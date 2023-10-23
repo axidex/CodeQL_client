@@ -43,7 +43,8 @@ path_to_src = config_yml["path_to_src"]
 
 SUPPORTED_LANGUAGES = ["python", 
                        "javascript",
-                       "java"
+                       "java",
+                       "cpp"
                        ]
 
 if language in SUPPORTED_LANGUAGES:
@@ -54,7 +55,8 @@ if language in SUPPORTED_LANGUAGES:
     f"Launching codeql_analyze with language: {language}"
     codeql_analyze(language=language,
                    scan_id=scan_id,
-                   path_to_result=path_to_result)
+                   path_to_result=path_to_result,
+                   path_to_src=path_to_src)
 
 else:
     logger.error(f"This language is not supported: {language}")

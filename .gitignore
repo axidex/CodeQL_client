@@ -1,6 +1,4 @@
 __pycache__
 *-db
-*.json
 *.sarif
 logs
-*.sh

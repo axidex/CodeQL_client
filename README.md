@@ -1,1 +1,1 @@
-install mvn, jdk, gradle
+install mvn, jdk, gradle also cmake, make, g++

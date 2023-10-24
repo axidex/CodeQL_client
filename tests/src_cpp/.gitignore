@@ -1,0 +1,8 @@
+build/
+bin/
+
+# disable the resources
+Engine/Core/test/resources/*/
+
+.vscode/
+Engine/vendor/*/

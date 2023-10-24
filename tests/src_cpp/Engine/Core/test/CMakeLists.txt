@@ -1,0 +1,1 @@
+he_add_test(TestCore TRUE)
